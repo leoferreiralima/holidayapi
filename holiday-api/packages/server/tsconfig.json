@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"],
+      "@config/*": ["./src/config/*"],
+      "@app/*": ["./src/app/*"],
+      "@helpers/*": ["./src/helpers/*"]
+    }
+  }
+}

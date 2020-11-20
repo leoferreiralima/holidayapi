@@ -1,0 +1,11 @@
+{
+  "name": "@holidayapi/jest-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "jest.config.js",
+  "devDependencies": {
+    "@types/jest": "^26.0.7",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.3"
+  }
+}
